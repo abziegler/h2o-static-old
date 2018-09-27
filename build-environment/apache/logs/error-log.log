@@ -134,3 +134,24 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.21.0.2. Set the 'ServerName' directive globally to suppress this message
 [Mon Sep 10 18:36:36.982462 2018] [mpm_event:notice] [pid 1:tid 139703443670912] AH00489: Apache/2.4.33 (Unix) configured -- resuming normal operations
 [Mon Sep 10 18:36:36.983463 2018] [core:notice] [pid 1:tid 139703443670912] AH00094: Command line: 'httpd -D FOREGROUND'
+AH00112: Warning: DocumentRoot [/usr/local/apache2/htdocs/dev] does not exist
+AH00112: Warning: DocumentRoot [/usr/local/apache2/htdocs/prod] does not exist
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.25.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 25 16:11:32.838117 2018] [mpm_event:notice] [pid 1:tid 139643007297408] AH00489: Apache/2.4.33 (Unix) configured -- resuming normal operations
+[Tue Sep 25 16:11:32.842861 2018] [core:notice] [pid 1:tid 139643007297408] AH00094: Command line: 'httpd -D FOREGROUND'
+[Tue Sep 25 16:17:11.476839 2018] [mpm_event:notice] [pid 1:tid 139643007297408] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 25 16:17:15.364744 2018] [mpm_event:notice] [pid 1:tid 139831695157120] AH00489: Apache/2.4.33 (Unix) configured -- resuming normal operations
+[Tue Sep 25 16:17:15.365190 2018] [core:notice] [pid 1:tid 139831695157120] AH00094: Command line: 'httpd -D FOREGROUND'
+[Tue Sep 25 16:44:32.197680 2018] [mpm_event:notice] [pid 1:tid 139831695157120] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.25.0.3. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 25 16:48:00.069253 2018] [mpm_event:notice] [pid 1:tid 140488218576768] AH00489: Apache/2.4.33 (Unix) configured -- resuming normal operations
+[Tue Sep 25 16:48:00.072608 2018] [core:notice] [pid 1:tid 140488218576768] AH00094: Command line: 'httpd -D FOREGROUND'
+[Tue Sep 25 16:50:05.082548 2018] [mpm_event:notice] [pid 1:tid 140488218576768] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.25.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 25 16:50:16.988460 2018] [mpm_event:notice] [pid 1:tid 139705632450432] AH00489: Apache/2.4.33 (Unix) configured -- resuming normal operations
+[Tue Sep 25 16:50:16.990075 2018] [core:notice] [pid 1:tid 139705632450432] AH00094: Command line: 'httpd -D FOREGROUND'
+[Tue Sep 25 16:51:37.240231 2018] [mpm_event:notice] [pid 1:tid 139705632450432] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.25.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Sep 25 16:51:39.483711 2018] [mpm_event:notice] [pid 1:tid 140373916940160] AH00489: Apache/2.4.33 (Unix) configured -- resuming normal operations
+[Tue Sep 25 16:51:39.488172 2018] [core:notice] [pid 1:tid 140373916940160] AH00094: Command line: 'httpd -D FOREGROUND'
