@@ -490,23 +490,6 @@ main {
   }
 }
 
-.inline-button {
-  color: $color-white;
-  font-size: $size-small;
-  font-weight: 700;
-  padding: 5px;
-  background: $color-blue;
-}
-
-.action {
-
-}
-
-.plain {
-  border: 2px solid $color-blue;
-  color: $color-blue;
-  background: $color-white;
-}
 
 
 
@@ -620,6 +603,48 @@ body > footer {
     z-index: 100000;
   }
 }
+
+
+////////
+// Blog
+
+
+.post-index-container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
+  .post-index-item {
+    margin: 10px 0;
+  }
+}
+
+
+.post-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-areas: "post-header" "post-content" "post-footer";
+
+  .post-header {
+
+  }
+
+  .post-content {
+
+  }
+
+  .post-footer {
+
+  }
+}
+
+
+.article-footer {
+  background: $color-background;
+}
+
 
 ////////
 // Page-Specific Overrides
