@@ -178,7 +178,9 @@ h2 {
 ////////////////////////////////////////////////
 //  header
 
-header {
+
+
+header.docs-header {
   width: 90%;
   max-width: 1072px;
   grid-area: header;
@@ -196,6 +198,13 @@ header {
     &:hover, &:focus {
       @include generic-focus-styles;
     }
+  }
+
+  .blog-header-logo {
+    font-size: $size-xlarge;
+    justify-self: left;
+    padding: 5px 10px;
+
   }
 
   .header-logo {
@@ -497,6 +506,54 @@ main {
 //////////////////
 // Blog
 
+header.blog-header {
+  grid-area: header;
+
+  .super-header {
+    background: $color-blue;
+    color: $color-background;
+
+    .super-header-text-wrapper {
+      width: 90%;
+      max-width: 1072px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+  }
+
+  .main-header {
+    width: 90%;
+    max-width: 1072px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    font-weight: 700;
+
+    a {
+      padding: 5px 10px;
+
+      &:hover, &:focus {
+        @include generic-focus-styles;
+      }
+    }
+
+    .blog-header-logo {
+      justify-self: left;
+      margin-left: 0px;
+      @include sans-serif(700, 28px, 100%);
+    }
+
+    .help {
+      justify-self: right;
+    }
+  }
+
+}
+
 .post-index-container {
   width: 90%;
   max-width: 1072px;
@@ -529,6 +586,32 @@ main {
       .post-index-item-author {
         margin: 0;
 
+      }
+
+      .post-index-item-content {
+        h1, h2, h3, h4 {
+          color: $color-black;
+        }
+
+        h1 {
+          font-size: $size-xlarge;
+          margin-bottom: 10px;
+        }
+
+        h2 {
+          font-size: $size-large;
+        }
+
+        h3 {
+          font-size: $size-body;
+        }
+
+        a {
+          color: $color-blue;
+          &:hover {
+            color: $color-red;
+          }
+        }
       }
 
       .post-index-item-footer {
@@ -587,11 +670,30 @@ main {
 
   .post-content {
 
-    font-weight: 400;
-
-    h2, h3, h4 {
-      color: $color-blue;
+    h1, h2, h3, h4 {
+      color: $color-black;
     }
+
+    h1 {
+      font-size: $size-xlarge;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: $size-large;
+    }
+
+    h3 {
+      font-size: $size-body;
+    }
+
+    a {
+      color: $color-blue;
+      &:hover {
+        color: $color-red;
+      }
+    }
+
 
     img {
       max-width: 90%;
@@ -774,143 +876,5 @@ body > footer {
   }
 }
 
-// project page overide colors
-.project .person-unaffiliated {
-  border-color: $color-trans-lightgray;
 
-  .name {
-    @include include-arrow(1px);
-    &:hover { color: $color-highlight; }
-  }
-}
 
-// project page, contributors currently affiliated with LIL
-// have bolded names
-.project .gallery-item-person  .name {
-  font-weight: bold;
-}
-
-// sketch page override colors
-.sketch section {
-  background-color: $color-black;
-
-  &:first-of-type{
-    background-color: $color-black;
-    color: white;
-  }
-
-  .prev-next {
-    border-color: $color-highlight;
-    border-top: none;
-    color: white;
-
-    a {
-      @include link-highlight($color-white, $color-highlight);
-      &:hover {
-        background-color: $color-trans-lightgray;
-        color: $color-yellow;
-        span { color: $color-highlight; }
-      }
-      &:active {
-        background-color: $color-highlight;
-        color: $color-black;
-        span { color: $color-black; }
-      }
-      @include respond(4) {
-        border-color: $color-white;
-        &:hover {
-          border-color: $color-highlight;
-          background-color: transparent;
-          color: $color-highlight !important;
-          span { color: $color-highlight; }
-        }
-      }
-    }
-  }
-
-  h2:before {
-    border-color: $color-highlight;
-  }
-
-  .slice.contact {
-    background-color: transparent;
-    color: $color-white;
-  }
-
-}
-
-// both sketch section on home page,
-// and sketch gallery page
-// spacing tweaks
-.sketches .gallery-crl {
-  @include respond(4) {
-    margin: $grid * 5 auto 0 auto;
-    text-align: center;
-  }
-
-  .gallery-item {
-    @include respond(3) {
-      width: 175px;
-    }
-    @include respond(4) {
-      width: 300px;
-    }
-  }
-}
-
-// the fellows people cards
-.fellow {
-  margin-bottom: 24px;
-
-  .intro {
-    border-top: 1px solid $color-trans-lightgray;
-    border-bottom: 1px solid $color-trans-lightgray;
-    width: 100%;
-    padding: 16px 0;
-  }
-  img {
-    @extend %thumb-rounded;
-    display: inline-block;
-    width: 150px;
-    float: left;
-  }
-  .summary {
-    display: inline-block;
-    float: right;
-    overflow: visible;
-    width: calc(100% - 174px);
-    margin-left: 24px;
-    h2 {
-      margin-top: 16px;
-    }
-    p {
-      font-size: .8em;
-    }
-    @include respond(4){
-      max-width: 75%;
-      margin-right: calc(25% - 174px);
-      h2 {
-        margin-top: 24px;
-      }
-      p {
-        font-size: 1em;
-      }
-    }
-  }
-  .small-btn {
-    margin-bottom: 9px;
-  }
-}
-
-// the fellows-2016 video
-.fellows-2016 .embed-container {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-// Footer Colors
-.projects footer { background-color: $color-acidmint; }
-
-.project footer { background-color: $color-highlight; }
-
-.about footer { background-color: $color-electricblue; }

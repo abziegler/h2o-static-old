@@ -10,30 +10,30 @@ pagination:
 <div class="post-index-container">
     <div class="post-index-nav-wrapper">
         <ul>
-            <li>Tag 1</li>
-            <li>Tag 2</li>
-            <li>Tag 3</li>
+            <li>All Posts</li>
+            <li>Featured</li>
+            <li>Announcements</li>
+            <li>Tips</li>
+            <li>Noted Casebooks</li>
         </ul>
     </div>
     <div class="post-index-item-wrapper">
     {% for post in paginator.posts %}
         <div class="post-index-item">
-        <article itemscope itemtype="http://schema.org/BlogPosting">
+        <div>
             <time class="post-index-item-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-            <h1 class="post-index-item-title" itemprop="headline">
-              <a href="{{ post.url}} ">{{ post.title }}</a></h1>
+            <h1 class="post-index-item-title" itemprop="headline"><a href="{{ post.url}} ">{{ post.title }}</a></h1>
             {% if post.author %}
               {% assign person_record = site.data.people[post.author] %}
               <p class="post-index-item-author">Posted by <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}">{{ person_record.name }}</a></p>
             {% elsif post.guest-author %}
               <p class="post-index-item-author">Posted by {{ post.guest-author }}</p>
             {% endif %}
-            <p class="post-index-content">{{ post.content }}</p>
-          <div class="post-index-item-footer">
-          {% include tags.html tags=post.tags categories=post.categories %}
-          </div>
-
-        </article> <!-- end article -->
+            <div class="post-index-item-content">{{ post.content }}</div>
+            <div class="post-index-item-footer">
+              {% include tags.html tags=post.tags categories=post.categories %}
+            </div>
+        </div> <!-- end article -->
 
       </div>
     {% endfor %}
