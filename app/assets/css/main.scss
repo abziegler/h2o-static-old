@@ -75,6 +75,7 @@ body {
   -webkit-font-smoothing: antialiased;
   @include sans-serif($light, $size-body, 32px);
   color: $color-black;
+  font-weight: 400;
   margin: 0 auto;
   background-color: white;
   width: 100%;
@@ -213,7 +214,6 @@ header {
 
 main {
   background-color: $color-white;
-  font-weight: 400;
   padding-bottom: 40px;
 }
 
@@ -494,41 +494,71 @@ main {
 }
 
 
-////////////////// Blog
-//
+//////////////////
+// Blog
 
 .post-index-container {
   width: 90%;
   max-width: 1072px;
   margin-left: auto;
   margin-right: auto;
+  display: grid;
+  grid-template:
+          "post-index-nav"
+          "post-index-items";
 
-  .post-index-item {
-    margin: 20px 0;
+  .post-index-nav-wrapper {
+    grid-area: post-index-nav;
+    margin-top: 20px;
+  }
 
-    .post-index-item-title {
-      margin: 0;
-    }
+  .post-index-item-wrapper {
+    grid-area: post-index-items;
 
-    .post-index-item-date {
+    .post-index-item {
+      margin: 20px 0;
 
-    }
-
-    .post-index-item-author {
-      margin: 0;
-
-
-    }
-
-    .post-index-item-footer {
-      .article-footer {
+      .post-index-item-title {
         margin: 0;
-        padding: 0;
+      }
+
+      .post-index-item-date {
+
+      }
+
+      .post-index-item-author {
+        margin: 0;
+
+      }
+
+      .post-index-item-footer {
+        .article-footer {
+          margin: 0;
+          padding: 0;
+        }
       }
     }
   }
 }
 
+@include respond(3) {
+  .post-index-container {
+    grid-template:
+            "post-index-items post-index-nav";
+    grid-template-columns: 3fr 1fr;
+
+    .post-index-nav-wrapper {
+      grid-area: post-index-nav;
+      padding: 10px;
+
+    }
+
+    .post-index-item-wrapper {
+      grid-area: post-index-items;
+      padding: 10px;
+    }
+  }
+}
 
 .post-container {
   width: 90%;
@@ -543,8 +573,6 @@ main {
 
     .post-title {
       margin: 0;
-      font-weight: 700;
-      color: $color-blue;
     }
 
     .post-date {
@@ -561,7 +589,7 @@ main {
 
     font-weight: 400;
 
-    h1, h2, h3, h4 {
+    h2, h3, h4 {
       color: $color-blue;
     }
 
