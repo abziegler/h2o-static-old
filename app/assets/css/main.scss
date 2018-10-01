@@ -199,6 +199,7 @@ header {
 
   .header-logo {
     justify-self: left;
+    margin-left: 10px;
     @include sans-serif(700, 18px, 100%);
   }
 
@@ -493,6 +494,95 @@ main {
 }
 
 
+////////////////// Blog
+//
+
+.post-index-container {
+  width: 90%;
+  max-width: 1072px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .post-index-item {
+    margin: 20px 0;
+
+    .post-index-item-title {
+      margin: 0;
+    }
+
+    .post-index-item-date {
+
+    }
+
+    .post-index-item-author {
+      margin: 0;
+
+
+    }
+
+    .post-index-item-footer {
+      .article-footer {
+        margin: 0;
+        padding: 0;
+      }
+    }
+  }
+}
+
+
+.post-container {
+  width: 90%;
+  max-width: 1072px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-areas: "post-header" "post-content" "post-footer";
+
+  .post-header {
+    margin: 20px 0;
+
+    .post-title {
+      margin: 0;
+      font-weight: 700;
+      color: $color-blue;
+    }
+
+    .post-date {
+      font-weight: 500;
+    }
+
+    .post-author {
+      font-weight: 300;
+    }
+
+  }
+
+  .post-content {
+
+    font-weight: 400;
+
+    h1, h2, h3, h4 {
+      color: $color-blue;
+    }
+
+    img {
+      max-width: 90%;
+      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, .2);
+      border: 2px solid $color-gray;
+
+    }
+
+  }
+
+  .post-footer {
+
+  }
+}
+
+
+.article-footer {
+  background: $color-background;
+}
 
 
 ////////////////////////////////////////////////
@@ -604,98 +694,6 @@ body > footer {
     width: auto;
     z-index: 100000;
   }
-}
-
-
-////////
-// Blog
-
-
-.post-index-container {
-  width: 90%;
-  max-width: 1072px;
-  margin-left: auto;
-  margin-right: auto;
-
-  .post-index-item {
-    margin: 20px 0;
-
-    .post-index-item-title {
-      margin: 0;
-    }
-
-    .post-index-item-date {
-
-    }
-
-    .post-index-item-author {
-      margin: 0;
-
-
-    }
-
-    .post-index-item-footer {
-        .article-footer {
-          margin: 0;
-          padding: 0;
-        }
-    }
-  }
-}
-
-
-.post-container {
-  width: 90%;
-  max-width: 1072px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-areas: "post-header" "post-content" "post-footer";
-
-  .post-header {
-    margin: 20px 0;
-
-    .post-title {
-      margin: 0;
-      font-weight: 700;
-      color: $color-blue;
-    }
-
-    .post-date {
-      font-weight: 500;
-    }
-
-    .post-author {
-      font-weight: 300;
-    }
-
-  }
-
-  .post-content {
-
-    font-weight: 400;
-
-    h1, h2, h3, h4 {
-      color: $color-blue;
-    }
-
-    img {
-      max-width: 90%;
-      box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, .2);
-      border: 2px solid $color-gray;
-
-    }
-
-  }
-
-  .post-footer {
-
-  }
-}
-
-
-.article-footer {
-  background: $color-background;
 }
 
 
