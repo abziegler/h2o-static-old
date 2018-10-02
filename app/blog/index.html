@@ -7,49 +7,36 @@ pagination:
 
 ---
 
+
+
 <div class="post-index-container">
-    <div class="post-index-nav-wrapper">
-        <ul>
-            <li>All Posts</li>
-            <li>Featured</li>
-            <li>Announcements</li>
-            <li>Tips</li>
-            <li>Noted Casebooks</li>
-        </ul>
-    </div>
-    <div class="post-index-item-wrapper">
-    {% for post in paginator.posts %}
-        <div class="post-index-item">
-        <div>
-            <time class="post-index-item-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-            <h1 class="post-index-item-title" itemprop="headline"><a href="{{ post.url}} ">{{ post.title }}</a></h1>
-            {% if post.author %}
-              {% assign person_record = site.data.people[post.author] %}
-              <p class="post-index-item-author">Posted by <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}">{{ person_record.name }}</a></p>
-            {% elsif post.guest-author %}
-              <p class="post-index-item-author">Posted by {{ post.guest-author }}</p>
-            {% endif %}
-            <div class="post-index-item-content">{{ post.content }}</div>
-            <div class="post-index-item-footer">
-              {% include tags.html tags=post.tags categories=post.categories %}
-            </div>
-        </div> <!-- end article -->
-
-      </div>
-    {% endfor %}
-      <!-- Pagination links -->
-      <div class="pagination sleeve">
-        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-        <div>
-        {% if paginator.previous_page %}
-          <a href="{{ paginator.previous_page_path }}" class="small-btn" role="button">Previous</a>
-        {% endif %}
-        {% if paginator.next_page %}
-          <a href="{{ paginator.next_page_path }}" class="small-btn" role="button">Next</a>
-        {% endif %}
+{% for post in paginator.posts %}
+    <article class="post">
+        <div class="post-header">
+            <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            <h1 class="post-title" itemprop="headline"><a href="{{ post.url}} ">{{ post.title }}</a></h1>
+            <div class="post-author">Posted by {{ post.author }}</div>
         </div>
-      </div>
+        <div class="post-content">{{ post.content }}</div>
+        <div class="post-footer">
+          {% include tags.html tags=post.tags categories=post.categories %}
+        </div>
+    </article>
 
+{% endfor %}
+  <!-- Pagination links -->
+  <div class="pagination sleeve">
+    <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <div>
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path }}" class="small-btn" role="button">Previous</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path }}" class="small-btn" role="button">Next</a>
+    {% endif %}
     </div>
+  </div>
 
 </div>
+
+

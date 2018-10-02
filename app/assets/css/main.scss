@@ -509,19 +509,6 @@ main {
 header.blog-header {
   grid-area: header;
 
-  .super-header {
-    background: $color-blue;
-    color: $color-background;
-
-    .super-header-text-wrapper {
-      width: 90%;
-      max-width: 1072px;
-      margin-left: auto;
-      margin-right: auto;
-
-    }
-  }
-
   .main-header {
     width: 90%;
     max-width: 1072px;
@@ -543,7 +530,7 @@ header.blog-header {
 
     .blog-header-logo {
       justify-self: left;
-      margin-left: 0px;
+      margin-left: 10px;
       @include sans-serif(700, 28px, 100%);
     }
 
@@ -552,104 +539,80 @@ header.blog-header {
     }
   }
 
+  @include respond(3) {
+    .main-header {
+      max-width: 1110px;
+    }
+  }
+
 }
 
-.post-index-container {
+//.post-index-container {
+//  width: 90%;
+//  max-width: 1072px;
+//  margin-left: auto;
+//  margin-right: auto;
+//
+//  .post-index-item-wrapper {
+//
+//    .post-index-item {
+//      margin: 20px 0;
+//
+//      .post-index-item-title {
+//        margin: 0;
+//      }
+//
+//      .post-index-item-date {
+//
+//      }
+//
+//      .post-index-item-author {
+//        margin: 0;
+//
+//      }
+//
+//      .post-index-item-content {
+//        h1, h2, h3, h4 {
+//          color: $color-black;
+//        }
+//
+//        h1 {
+//          font-size: $size-xlarge;
+//          margin-bottom: 10px;
+//        }
+//
+//        h2 {
+//          font-size: $size-large;
+//        }
+//
+//        h3 {
+//          font-size: $size-body;
+//        }
+//
+//        a {
+//          color: $color-blue;
+//          &:hover {
+//            color: $color-red;
+//          }
+//        }
+//      }
+//
+//      .post-index-item-footer {
+//        .article-footer {
+//          margin: 0;
+//          padding: 0;
+//        }
+//      }
+//    }
+//  }
+//}
+
+
+.post-container, .post-index-container {
   width: 90%;
   max-width: 1072px;
   margin-left: auto;
   margin-right: auto;
-  display: grid;
-  grid-template:
-          "post-index-nav"
-          "post-index-items";
-
-  .post-index-nav-wrapper {
-    grid-area: post-index-nav;
-    margin-top: 20px;
-  }
-
-  .post-index-item-wrapper {
-    grid-area: post-index-items;
-
-    .post-index-item {
-      margin: 20px 0;
-
-      .post-index-item-title {
-        margin: 0;
-      }
-
-      .post-index-item-date {
-
-      }
-
-      .post-index-item-author {
-        margin: 0;
-
-      }
-
-      .post-index-item-content {
-        h1, h2, h3, h4 {
-          color: $color-black;
-        }
-
-        h1 {
-          font-size: $size-xlarge;
-          margin-bottom: 10px;
-        }
-
-        h2 {
-          font-size: $size-large;
-        }
-
-        h3 {
-          font-size: $size-body;
-        }
-
-        a {
-          color: $color-blue;
-          &:hover {
-            color: $color-red;
-          }
-        }
-      }
-
-      .post-index-item-footer {
-        .article-footer {
-          margin: 0;
-          padding: 0;
-        }
-      }
-    }
-  }
-}
-
-@include respond(3) {
-  .post-index-container {
-    grid-template:
-            "post-index-items post-index-nav";
-    grid-template-columns: 3fr 1fr;
-
-    .post-index-nav-wrapper {
-      grid-area: post-index-nav;
-      padding: 10px;
-
-    }
-
-    .post-index-item-wrapper {
-      grid-area: post-index-items;
-      padding: 10px;
-    }
-  }
-}
-
-.post-container {
-  width: 90%;
-  max-width: 1072px;
-  margin-left: auto;
-  margin-right: auto;
-  display: grid;
-  grid-template-areas: "post-header" "post-content" "post-footer";
 
   .post-header {
     margin: 20px 0;
@@ -665,7 +628,6 @@ header.blog-header {
     .post-author {
       font-weight: 300;
     }
-
   }
 
   .post-content {
@@ -701,6 +663,13 @@ header.blog-header {
       border: 2px solid $color-gray;
 
     }
+}
+
+.post-container {
+  display: grid;
+  grid-template-areas: "post-header" "post-content" "post-footer";
+
+
 
   }
 
