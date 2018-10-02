@@ -607,6 +607,11 @@ header.blog-header {
 //  }
 //}
 
+.post-index-container {
+  .pagination {
+    margin-bottom: 40px;
+  }
+}
 
 .post-container, .post-index-container {
   width: 90%;
@@ -656,32 +661,26 @@ header.blog-header {
       }
     }
 
-
     img {
       max-width: 90%;
       box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, .2);
       border: 2px solid $color-gray;
 
     }
+  }
 }
 
 .post-container {
   display: grid;
   grid-template-areas: "post-header" "post-content" "post-footer";
-
-
-
-  }
-
-  .post-footer {
-
-  }
 }
 
 
 .article-footer {
   background: $color-background;
 }
+
+
 
 
 ////////////////////////////////////////////////

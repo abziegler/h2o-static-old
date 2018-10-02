@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e9cd531-61df-4add-9187-acf34a468bb8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_includes/blog-header.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_includes/blog-header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_includes/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-environment/apache/logs/access-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/build-environment/apache/logs/access-log.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,7 +29,7 @@
             <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="502">
-                  <caret line="610" column="40" selection-start-line="610" selection-start-column="40" selection-end-line="610" selection-end-column="40" />
+                  <caret line="615" column="40" selection-start-line="615" selection-start-column="40" selection-end-line="615" selection-end-column="40" />
                   <folding>
                     <element signature="e#4062#4851#0" />
                     <element signature="e#5202#5711#0" />
@@ -76,7 +72,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/blog/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="223">
+                <state relative-caret-position="22">
                   <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
                 </state>
               </provider>
@@ -128,8 +124,24 @@
           <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-728">
-                  <caret line="556" column="2" selection-start-line="556" selection-start-column="2" selection-end-line="556" selection-end-column="2" />
+                <state relative-caret-position="68">
+                  <caret line="611" column="20" selection-start-line="611" selection-start-column="20" selection-end-line="611" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#10920#11086#0" />
+                    <element signature="e#11104#11551#0" />
+                    <element signature="e#11684#11775#0" />
+                    <element signature="e#10586#10622#0" />
+                    <element signature="e#10693#11508#0" />
+                    <element signature="e#11370#11506#0" />
+                    <element signature="e#11730#11793#0" />
+                    <element signature="e#11799#11898#0" />
+                    <element signature="e#11913#11983#0" />
+                    <element signature="e#12020#12806#0" />
+                    <element signature="e#12915#13028#0" />
+                    <element signature="e#13156#13205#0" />
+                    <element signature="e#13214#13313#0" />
+                    <element signature="e#13352#13512#0" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -227,8 +239,8 @@
         <option value="$PROJECT_DIR$/app/_includes/header.html" />
         <option value="$PROJECT_DIR$/app/_includes/footer.html" />
         <option value="$PROJECT_DIR$/app/_includes/blog-header.html" />
-        <option value="$PROJECT_DIR$/app/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/app/blog/index.html" />
+        <option value="$PROJECT_DIR$/app/assets/css/main.scss" />
       </list>
     </option>
   </component>
@@ -378,18 +390,18 @@
       <workItem from="1535473143877" duration="9405000" />
       <workItem from="1536604562349" duration="8856000" />
       <workItem from="1537798456711" duration="3941000" />
-      <workItem from="1538055851713" duration="25517000" />
+      <workItem from="1538055851713" duration="26979000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183174000" />
+    <option name="totallyTimeSpent" value="184636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="887" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006258" side_tool="true" weight="0.32893157" />
@@ -398,7 +410,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4993742" visible="true" weight="0.34440345" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4993742" visible="true" weight="0.34440345" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -733,18 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="610" column="40" selection-start-line="610" selection-start-column="40" selection-end-line="610" selection-end-column="40" />
-          <folding>
-            <element signature="e#4062#4851#0" />
-            <element signature="e#5202#5711#0" />
-            <element signature="e#5742#6250#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_layouts/blog-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -761,8 +761,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/blog/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
+        <state relative-caret-position="22">
           <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="611" column="20" selection-start-line="611" selection-start-column="20" selection-end-line="611" selection-end-column="20" />
+          <folding>
+            <element signature="e#10920#11086#0" />
+            <element signature="e#11104#11551#0" />
+            <element signature="e#11684#11775#0" />
+            <element signature="e#10586#10622#0" />
+            <element signature="e#10693#11508#0" />
+            <element signature="e#11370#11506#0" />
+            <element signature="e#11730#11793#0" />
+            <element signature="e#11799#11898#0" />
+            <element signature="e#11913#11983#0" />
+            <element signature="e#12020#12806#0" />
+            <element signature="e#12915#13028#0" />
+            <element signature="e#13156#13205#0" />
+            <element signature="e#13214#13313#0" />
+            <element signature="e#13352#13512#0" />
+          </folding>
         </state>
       </provider>
     </entry>
