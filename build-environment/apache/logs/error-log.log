@@ -181,3 +181,7 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Mon Oct 01 13:07:03.958207 2018] [mpm_event:notice] [pid 1:tid 139678587234176] AH00489: Apache/2.4.33 (Unix) configured -- resuming normal operations
 [Mon Oct 01 13:07:03.961061 2018] [core:notice] [pid 1:tid 139678587234176] AH00094: Command line: 'httpd -D FOREGROUND'
 [Mon Oct 01 18:19:30.454945 2018] [autoindex:error] [pid 93:tid 139678309119744] [client 172.20.0.1:34442] AH01276: Cannot serve directory /usr/local/apache2/htdocs/2018/: No matching DirectoryIndex (index.html,index.js,index.xml,index.php) found, and server-generated directory index forbidden by Options directive
+[Tue Oct 02 19:39:46.355873 2018] [mpm_event:notice] [pid 1:tid 139678587234176] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 172.22.0.2. Set the 'ServerName' directive globally to suppress this message
+[Tue Oct 02 19:39:57.785848 2018] [mpm_event:notice] [pid 1:tid 140083744180096] AH00489: Apache/2.4.33 (Unix) configured -- resuming normal operations
+[Tue Oct 02 19:39:57.786250 2018] [core:notice] [pid 1:tid 140083744180096] AH00094: Command line: 'httpd -D FOREGROUND'
