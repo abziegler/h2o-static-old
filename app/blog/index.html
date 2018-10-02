@@ -4,36 +4,27 @@ title-tag: Blog
 slug: blog
 pagination:
   enabled: true
-custom-css: ['blog']
+
 ---
 
-<section class="posts-index">
+<div class="post-index-container">
 {% for post in paginator.posts %}
-  <div class="sleeve">
-    <article itemscope itemtype="http://schema.org/BlogPosting">
-      <header>
-        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-        <h2 class="post-title" itemprop="headline">
-          <a href="{{ post.url}} ">{{ post.title }}</a></h2>
-        {% if post.author %}
-          {% assign person_record = site.data.people[post.author] %}
-          <p class="post-author">Posted by <a href="{{ site.baseurl }}/about/#{{person_record.name | slugify }}">{{ person_record.name }}</a></p>
-        {% elsif post.guest-author %}
-          <p class="post-author">Posted by {{ post.guest-author }}</p>
-        {% endif %}
-      </header>
+    <article class="post">
+        <div class="post-header">
+            <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+            <h1 class="post-title" itemprop="headline"><a href="{{ post.url}} ">{{ post.title }}</a></h1>
+            {% if post.author %}
+                {% assign person_record = site.data.people[post.author] %}
+                <div class="post-author">Posted by {{ person_record.name }}</div>
+            {% endif %}
+        </div>
+        <div class="post-content">{{ post.content }}</div>
+        <div class="post-footer">
+          {% include tags.html tags=post.tags categories=post.categories %}
+        </div>
+    </article>
 
-      <div class="post-content" itemprop="articleBody">
-        {{ post.content | liquify | markdownify }}
-      </div>
-
-      {% include tags.html tags=post.tags categories=post.categories %}
-
-    </article> <!-- end article -->
-
-  </div>
 {% endfor %}
-
   <!-- Pagination links -->
   <div class="pagination sleeve">
     <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
@@ -47,4 +38,6 @@ custom-css: ['blog']
     </div>
   </div>
 
-</section>
+</div>
+
+
