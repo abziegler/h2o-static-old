@@ -2,236 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e9cd531-61df-4add-9187-acf34a468bb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/_posts/2013-04-29-prof-i-glenn-cohen-on-h2o.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2013-05-31-hls-students-expand-h2o-to-become-the-norm.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2013-09-05-karlans-torts-first-installment.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2013-09-5-cohens-civil-procedure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2014-09-02-h2o-presentation-at-legaled-conference.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2015-10-20-h2o-faculty-user-profile-brian-jm-quinn.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_posts/2016-03-07-jonathan-zittrains-h2o-made-torts-casebook.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_posts/2016-03-21-h2o-doc-export-word-styles.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_posts/2016-09-29-corporations-casebook-printed-on-demand-from-h2o.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_posts/2016-11-01-the-other-open-access-debate-educational-resources.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/_posts/2018-06-16-h2o-at-calicon2018.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/tinymce-small.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/tinymce-small.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/tinymce-small.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/tinymce-small.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/tinymce.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/tinymce.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/tinymce.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/fonts/tinymce.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x675r/awesome-box-hero-wide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x675r/free-the-law-box-hero-wide-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x675r/h20-box-hero-wide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x675r/lab-hero-wide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x675r/nuremberg-hero-wide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x675r/perma-box-hero-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x675r/stack-life-hero-wide-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x900r/awesome-box-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x900r/free-the-law-thumbnail-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x900r/h20-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x900r/haystacks-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x900r/nuremberg-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x900r/perma-thumbnail-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x900r/stacklife-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1200x900r/timecapsule-thumbnail-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/150x150/alexander-nwala.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/150x150/ilya-kreymer.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/150x150/jay-edwards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/150x150/muira-mccammon.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/150x150/neel-agrawal.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/150x150/sara-frug.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/150x150/tiffany-tseng.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1600x900r/awesome-box-hero-wide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1600x900r/free-the-law-box-hero-wide-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1600x900r/h20-box-hero-wide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1600x900r/lab-hero-wide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1600x900r/nuremberg-hero-wide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1600x900r/perma-box-hero-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/1600x900r/stack-life-hero-wide-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/2100x1000r/awesome-box-hero-wide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/2100x1000r/free-the-law-box-hero-wide-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/2100x1000r/h20-box-hero-wide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/2100x1000r/nuremberg-hero-wide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/2100x1000r/perma-box-hero-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/2100x1000r/stack-life-hero-wide-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/adam-ziegler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/anastasia-aizman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/andrew-silva.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/anna-bialas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/ben-steinberg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/brett-johnson.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/caitlin-laughlin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/casey-gruppioni.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/doyung-lee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/jack-cushman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/jake-effoduh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/jay-edwards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/jessamyn-west.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/jonathan-zittrain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/jordi-weinstock.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/kerri-fleming.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/kim-dulin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/matt-miller.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/matt-phillips.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/miglena-minkova.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/paul-deschner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/rachel-karasick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/rebecca-cremona.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/reid-whitaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/samantha-bates.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/stephen-chapman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/zach-tan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216c/zena-agha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/canifairuseit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/cap-topic-mapping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/community-portraits.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/guerrilla-lib.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/local-memory.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/phone-sketch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/sketch-hovermarks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/square-wave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/trash-exchange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/216x216r/warc-diff-tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-caselaw-access-project.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-h2o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-haystacks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-hovermarks-workshop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-hovermarks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-nuremberg-project.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-perma-cc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-projects.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-sketches.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-stack-life.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/351x143r/lab-logo-footer-time-capsule-encryption.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400X400r/awesome-box-hero-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400X400r/free-the-law-box-hero-square-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400X400r/h20-box-hero-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400X400r/lab-hero-narrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400X400r/nuremberg-hero-square-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400X400r/perma-hero-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400X400r/stack-life-hero-square-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400x300r/awesome-box-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400x300r/free-the-law-thumbnail-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400x300r/h20-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400x300r/haystacks-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400x300r/nuremberg-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400x300r/perma-thumbnail-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400x300r/stacklife-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/400x300r/timecapsule-thumbnail-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/adam-ziegler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/anastasia-aizman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/andrew-silva.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/anna-bialas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/ben-steinberg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/brett-johnson.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/caitlin-laughlin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/casey-gruppioni.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/doyung-lee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/jack-cushman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/jake-effoduh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/jay-edwards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/jessamyn-west.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/jonathan-zittrain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/jordi-weinstock.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/kerri-fleming.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/kim-dulin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/matt-miller.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/matt-phillips.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/miglena-minkova.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/paul-deschner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/rachel-karasick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/rebecca-cremona.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/reid-whitaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/samantha-bates.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/stephen-chapman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/zach-tan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432c/zena-agha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/canifairuseit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/cap-topic-mapping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/community-portraits.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/guerrilla-lib.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/local-memory.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/phone-sketch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/sketch-hovermarks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/square-wave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/trash-exchange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/432x432r/warc-diff-tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/adam-ziegler.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/anastasia-aizman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/andrew-silva.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/anna-bialas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/ben-steinberg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/brett-johnson.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/caitlin-laughlin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/casey-gruppioni.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/doyung-lee.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/jack-cushman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/jake-effoduh.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/jay-edwards.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/jessamyn-west.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/jonathan-zittrain.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/jordi-weinstock.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/kerri-fleming.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/kim-dulin.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/matt-miller.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/matt-phillips.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/miglena-minkova.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/paul-deschner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/rachel-karasick.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/rebecca-cremona.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/reid-whitaker.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/samantha-bates.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/stephen-chapman.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/zach-tan.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648c/zena-agha.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/canifairuseit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/cap-topic-mapping.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/community-portraits.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/guerrilla-lib.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/local-memory.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/phone-sketch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/sketch-hovermarks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/square-wave.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/trash-exchange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/648x648r/warc-diff-tools.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-caselaw-access-project.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-h2o.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-haystacks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-hovermarks.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-nuremberg-project.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-perma-cc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-projects.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-sketches.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-stack-life.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-time-capsule-encryption.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/702x286r/lab-logo-footer-workshop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x450r/awesome-box-hero-wide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x450r/free-the-law-box-hero-wide-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x450r/h20-box-hero-wide-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x450r/lab-hero-wide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x450r/nuremberg-hero-wide-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x450r/perma-box-hero-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x450r/stack-life-hero-wide-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x600r/awesome-box-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x600r/free-the-law-thumbnail-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x600r/h20-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x600r/haystacks-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x600r/nuremberg-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x600r/perma-thumbnail-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x600r/stacklife-thumbnail-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x600r/timecapsule-thumbnail-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x800r/awesome-box-hero-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x800r/free-the-law-box-hero-square-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x800r/h20-box-hero-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x800r/lab-hero-narrow.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x800r/nuremberg-hero-square-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x800r/perma-hero-square.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/thumbs/800x800r/stack-life-hero-square-0.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/other-resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/other-resources.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_posts/2017-06-22-warc-games-at-iipc.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/_posts/2018-09-27-opencasebook-test-blog-post.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build-environment/apache/logs/access-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/build-environment/apache/logs/access-log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-environment/apache/logs/error-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/build-environment/apache/logs/error-log.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -241,122 +23,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/_layouts/post.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="23" selection-start-line="12" selection-start-column="12" selection-end-line="15" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/index.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="478">
-                  <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="2013-05-31-hls-students-expand-h2o-to-become-the-norm.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/_posts/2013-05-31-hls-students-expand-h2o-to-become-the-norm.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="225">
-                    <caret line="9" column="303" selection-start-line="9" selection-start-column="303" selection-end-line="9" selection-end-column="303" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="2014-09-02-h2o-presentation-at-legaled-conference.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/_posts/2014-09-02-h2o-presentation-at-legaled-conference.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="240">
-                    <caret line="12" selection-start-line="12" selection-end-line="12" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="2015-10-20-h2o-faculty-user-profile-brian-jm-quinn.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/_posts/2015-10-20-h2o-faculty-user-profile-brian-jm-quinn.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="135">
-                    <caret line="7" column="306" selection-start-line="7" selection-start-column="306" selection-end-line="7" selection-end-column="306" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="other-resources.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/other-resources.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="268">
-                  <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#iframe#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#iframe#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="2013-04-24-prof-zittrain-on-h2o.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/_posts/2013-04-24-prof-zittrain-on-h2o.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="making-casebooks.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/making-casebooks.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="20" column="13" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="other-resources.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/other-resources.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="276">
-                  <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-                  <folding>
-                    <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#iframe#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#iframe#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/_layouts/post.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="334">
+              <caret line="627" column="5" selection-start-line="627" selection-start-column="5" selection-end-line="627" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/blog/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="236">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>hed</find>
       <find>border-bottom</find>
       <find>prim</find>
       <find>tag</find>
@@ -386,6 +84,7 @@
       <find>posts</find>
       <find>header</find>
       <find>blog</find>
+      <find>post-header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -394,11 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/printing-casebooks.md" />
-        <option value="$PROJECT_DIR$/app/index.md" />
-        <option value="$PROJECT_DIR$/assets/src/scss/variables-mixins-placeholders.scss" />
-        <option value="$PROJECT_DIR$/app/_layouts/sectioned-page.html" />
-        <option value="$PROJECT_DIR$/app/faq.html" />
         <option value="$PROJECT_DIR$/app/404.md" />
         <option value="$PROJECT_DIR$/app/_includes/docs-nav.html" />
         <option value="$PROJECT_DIR$/app/_includes/docs-content.html" />
@@ -431,13 +125,10 @@
         <option value="$PROJECT_DIR$/app/_includes/header.html" />
         <option value="$PROJECT_DIR$/app/_includes/footer.html" />
         <option value="$PROJECT_DIR$/app/_includes/blog-header.html" />
-        <option value="$PROJECT_DIR$/app/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/app/_includes/title.html" />
         <option value="$PROJECT_DIR$/app/_posts/2017-06-22-warc-games-at-iipc.md" />
         <option value="$PROJECT_DIR$/app/_posts/2013-04-24-prof-zittrain-on-h2o.md" />
         <option value="$PROJECT_DIR$/app/_data/people.yaml" />
-        <option value="$PROJECT_DIR$/app/_layouts/post.html" />
-        <option value="$PROJECT_DIR$/app/blog/index.html" />
         <option value="$PROJECT_DIR$/app/_posts/2013-04-29-prof-i-glenn-cohen-on-h2o.md" />
         <option value="$PROJECT_DIR$/app/_posts/2013-05-31-hls-students-expand-h2o-to-become-the-norm.md" />
         <option value="$PROJECT_DIR$/app/_posts/2013-09-05-karlans-torts-first-installment.md" />
@@ -445,6 +136,14 @@
         <option value="$PROJECT_DIR$/app/_posts/2014-09-02-h2o-presentation-at-legaled-conference.md" />
         <option value="$PROJECT_DIR$/app/_posts/2015-10-20-h2o-faculty-user-profile-brian-jm-quinn.md" />
         <option value="$PROJECT_DIR$/app/other-resources.html" />
+        <option value="$PROJECT_DIR$/app/_posts/2016-03-07-jonathan-zittrains-h2o-made-torts-casebook.md" />
+        <option value="$PROJECT_DIR$/app/_posts/2016-03-21-h2o-doc-export-word-styles.md" />
+        <option value="$PROJECT_DIR$/app/_posts/2016-09-29-corporations-casebook-printed-on-demand-from-h2o.md" />
+        <option value="$PROJECT_DIR$/app/_posts/2016-11-01-the-other-open-access-debate-educational-resources.md" />
+        <option value="$PROJECT_DIR$/app/_posts/2018-06-16-h2o-at-calicon2018.md" />
+        <option value="$PROJECT_DIR$/app/assets/css/main.scss" />
+        <option value="$PROJECT_DIR$/app/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/app/blog/index.html" />
       </list>
     </option>
   </component>
@@ -455,8 +154,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="194" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1486" />
     <option name="height" value="887" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -497,6 +197,26 @@
               <item name="h2o-static" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h2o-static" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h2o-static" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h2o-static" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h2o-static" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="h2o-static" type="b2602c69:ProjectViewProjectNode" />
+              <item name="h2o-static" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="h2o-static" type="b2602c69:ProjectViewProjectNode" />
@@ -569,18 +289,18 @@
       <workItem from="1535473143877" duration="9405000" />
       <workItem from="1536604562349" duration="8856000" />
       <workItem from="1537798456711" duration="3941000" />
-      <workItem from="1538055851713" duration="31853000" />
+      <workItem from="1538055851713" duration="34314000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189510000" />
+    <option name="totallyTimeSpent" value="191971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="887" extended-state="0" />
+    <frame x="194" y="23" width="1486" height="887" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20833333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20794079" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5006258" side_tool="true" weight="0.32893157" />
@@ -629,31 +349,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/_layouts/tag_or_category.html" />
-    <entry file="file://$PROJECT_DIR$/app/_layouts/simple-page.html" />
-    <entry file="file://$PROJECT_DIR$/app/glossary.html">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="300">
-            <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_data/glossary.yaml" />
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/builds/dev/reading-casebooks/index.html" />
     <entry file="file://$PROJECT_DIR$/assets/src/scss/variables-mixins-placeholders.scss" />
     <entry file="file://$PROJECT_DIR$/app/_includes/docs-content-no-sidebar.html">
@@ -758,16 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_posts/2018-09-17-draft-casebook-feature.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="327">
-            <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -810,18 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="615" column="40" selection-start-line="615" selection-start-column="40" selection-end-line="615" selection-end-column="40" />
-          <folding>
-            <element signature="e#4062#4851#0" />
-            <element signature="e#5202#5711#0" />
-            <element signature="e#5742#6250#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_layouts/blog-page.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -843,27 +516,6 @@
             <caret line="19" selection-start-line="19" selection-end-line="19" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_layouts/post.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="23" selection-start-line="12" selection-start-column="12" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/blog/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -931,33 +583,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/_posts/2013-05-31-hls-students-expand-h2o-to-become-the-norm.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="9" column="303" selection-start-line="9" selection-start-column="303" selection-end-line="9" selection-end-column="303" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_posts/2013-04-24-prof-zittrain-on-h2o.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/_posts/2014-09-02-h2o-presentation-at-legaled-conference.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="240">
-            <caret line="12" selection-start-line="12" selection-end-line="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_posts/2015-10-20-h2o-faculty-user-profile-brian-jm-quinn.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -993,7 +618,7 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="268">
           <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
@@ -1001,6 +626,121 @@
             <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#iframe#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2014-09-02-h2o-presentation-at-legaled-conference.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="240">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2013-04-24-prof-zittrain-on-h2o.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2013-05-31-hls-students-expand-h2o-to-become-the-norm.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="9" column="303" selection-start-line="9" selection-start-column="303" selection-end-line="9" selection-end-column="303" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2018-09-17-draft-casebook-feature.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="287">
+            <caret line="20" selection-start-line="20" selection-end-line="20" selection-end-column="129" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2016-03-07-jonathan-zittrains-h2o-made-torts-casebook.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="9" column="310" selection-start-line="9" selection-start-column="310" selection-end-line="9" selection-end-column="310" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2018-06-16-h2o-at-calicon2018.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="18" column="281" selection-start-line="18" selection-start-column="281" selection-end-line="18" selection-end-column="281" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2016-11-01-the-other-open-access-debate-educational-resources.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="15" column="67" selection-start-line="15" selection-start-column="67" selection-end-line="15" selection-end-column="67" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2016-09-29-corporations-casebook-printed-on-demand-from-h2o.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="7" column="220" selection-start-line="7" selection-start-column="220" selection-end-line="7" selection-end-column="220" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_posts/2016-03-21-h2o-doc-export-word-styles.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="255">
+            <caret line="12" selection-start-line="12" selection-end-line="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="95" column="19" selection-start-line="95" selection-start-column="19" selection-end-line="95" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="627" column="5" selection-start-line="627" selection-start-column="5" selection-end-line="627" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/_layouts/post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>

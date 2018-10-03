@@ -19,9 +19,13 @@ pagination:
             {% endif %}
         </div>
         <div class="post-content">{{ post.content }}</div>
+        {% if post.tags.length > 0 %}
         <div class="post-footer">
           {% include tags.html tags=post.tags categories=post.categories %}
         </div>
+        {% else %}
+        <br>
+        {% endif %}
     </article>
 
 {% endfor %}
