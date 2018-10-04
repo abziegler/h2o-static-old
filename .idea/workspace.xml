@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9e9cd531-61df-4add-9187-acf34a468bb8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/app/_posts/2016-03-07-jonathan-zittrains-h2o-made-torts-casebook.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2016-03-21-h2o-doc-export-word-styles.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2016-09-29-corporations-casebook-printed-on-demand-from-h2o.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2016-11-01-the-other-open-access-debate-educational-resources.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/_posts/2018-06-16-h2o-at-calicon2018.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_posts/2017-06-22-warc-games-at-iipc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/_posts/2018-09-27-opencasebook-test-blog-post.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/blog/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/blog/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build-environment/apache/logs/access-log.log" beforeDir="false" afterPath="$PROJECT_DIR$/build-environment/apache/logs/access-log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/other-resources.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/other-resources.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,29 +13,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/_layouts/post.html">
+      <file leaf-file-name="other-resources.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/other-resources.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="627" column="5" selection-start-line="627" selection-start-column="5" selection-end-line="627" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/blog/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+            <state relative-caret-position="384">
+              <caret line="54" column="209" selection-start-line="54" selection-start-column="209" selection-end-line="54" selection-end-column="209" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#li#4;n#ul#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#main#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#iframe#0;n#div#0;n#li#5;n#ul#0;n#main#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,7 +116,6 @@
         <option value="$PROJECT_DIR$/app/_posts/2013-09-5-cohens-civil-procedure.md" />
         <option value="$PROJECT_DIR$/app/_posts/2014-09-02-h2o-presentation-at-legaled-conference.md" />
         <option value="$PROJECT_DIR$/app/_posts/2015-10-20-h2o-faculty-user-profile-brian-jm-quinn.md" />
-        <option value="$PROJECT_DIR$/app/other-resources.html" />
         <option value="$PROJECT_DIR$/app/_posts/2016-03-07-jonathan-zittrains-h2o-made-torts-casebook.md" />
         <option value="$PROJECT_DIR$/app/_posts/2016-03-21-h2o-doc-export-word-styles.md" />
         <option value="$PROJECT_DIR$/app/_posts/2016-09-29-corporations-casebook-printed-on-demand-from-h2o.md" />
@@ -144,6 +124,7 @@
         <option value="$PROJECT_DIR$/app/assets/css/main.scss" />
         <option value="$PROJECT_DIR$/app/_layouts/post.html" />
         <option value="$PROJECT_DIR$/app/blog/index.html" />
+        <option value="$PROJECT_DIR$/app/other-resources.html" />
       </list>
     </option>
   </component>
@@ -289,12 +270,12 @@
       <workItem from="1535473143877" duration="9405000" />
       <workItem from="1536604562349" duration="8856000" />
       <workItem from="1537798456711" duration="3941000" />
-      <workItem from="1538055851713" duration="34314000" />
+      <workItem from="1538055851713" duration="35153000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191971000" />
+    <option name="totallyTimeSpent" value="192810000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="194" y="23" width="1486" height="887" extended-state="0" />
@@ -608,27 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/other-resources.html">
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="30">
-            <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/_posts/2014-09-02-h2o-presentation-at-legaled-conference.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -723,6 +683,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/blog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="33" column="95" lean-forward="true" selection-start-line="33" selection-start-column="95" selection-end-line="33" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/css/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="334">
@@ -737,10 +704,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/blog/index.html">
+    <entry file="file://$PROJECT_DIR$/app/other-resources.html">
+      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+        <state relative-caret-position="384">
+          <caret line="54" column="209" selection-start-line="54" selection-start-column="209" selection-end-line="54" selection-end-column="209" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#2;n#ul#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#3;n#ul#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#4;n#ul#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#4;n#ul#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#main#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#iframe#0;n#div#0;n#li#5;n#ul#0;n#main#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
