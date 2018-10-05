@@ -13,6 +13,6 @@ services:
         - "8080:8080"
     volumes:
         - ./build:/usr/local/apache2/htdocs
-        - ./build-environment/apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
-        - ./build-environment/apache/logs:/usr/local/apache2/logs
+        - ./apache/httpd.conf:/usr/local/apache2/conf/httpd.conf
+        - ./apache/logs:/usr/local/apache2/logs
 
